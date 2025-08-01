@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+
+# Output folders
+dist/
+out/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript cache
+*.tsbuildinfo
+
+# macOS files
+.DS_Store
+
+# Linux files
+*.swp
+
+# Compiled binaries (just in case)
+*.AppImage
+*.deb
+*.exe
+*.msi
+*.snap
+*.zip
+
+# Electron builder cache
+.electron-builder/
+
+# VSCode settings
+.vscode/
+
+# Coverage/test
+coverage/
+
+# Environment files (if any)
+.env
+.env.*
