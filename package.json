@@ -2,7 +2,7 @@
   "name": "electron-simple-app",
   "version": "1.0.0",
   "description": "Simple Electron app with GitHub Actions build for Linux",
-  "author": "LNantes",
+  "author": "Luis Nantes <nantesluis72@gmail.com>",
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
