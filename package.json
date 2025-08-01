@@ -5,9 +5,9 @@
   "author": "Luis Nantes <nantesluis72@gmail.com>",
   "main": "dist/main.js",
   "scripts": {
-    "build": "tsc",
-    "start": "npm run build && electron .",
-    "package": "electron-builder"
+     "build": "tsc && cp src/index.html dist/index.html",
+     "start": "npm run build && electron .",
+     "package": "electron-builder --publish never"
   },
   "devDependencies": {
     "electron": "^25.2.0",
