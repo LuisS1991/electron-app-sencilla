@@ -1,0 +1,26 @@
+{
+  "name": "electron-simple-app",
+  "version": "1.0.0",
+  "description": "Simple Electron app with GitHub Actions build for Linux",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron .",
+    "package": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^25.2.0",
+    "electron-builder": "^23.6.0",
+    "typescript": "^5.1.6"
+  },
+  "build": {
+    "appId": "com.example.electronsimpleapp",
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Utility"
+    }
+  }
+}
